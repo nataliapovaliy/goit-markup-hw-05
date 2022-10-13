@@ -372,7 +372,7 @@ img {
   background-color: transparent;
   color: var(--color-icons);
 
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -514,7 +514,7 @@ img {
   overflow: hidden;
 }
 
-.item-top-wrap:hover .item-box-title {
+.portfolio-link:hover .item-box-title {
   transform: translateY(0%);
 }
 
