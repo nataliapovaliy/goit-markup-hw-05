@@ -569,14 +569,17 @@ footer {
   padding-bottom: 60px;
   background-color: var(--footer-bg-color);
 }
+
 .footer-list {
   display: flex;
   justify-content: flex-start;
   gap: 70px;
 }
+
 .logo-accent-footer {
   color: var(--accent-text-color);
 }
+
 .footer-link {
   color: var(--text-transparency-color);
   font-style: normal;
@@ -585,6 +588,7 @@ footer {
   line-height: 1.71;
   text-decoration: none;
 }
+
 .footer-link-adress {
   color: var(--accent-text-color);
 }
@@ -594,12 +598,15 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--accent-color);
 }
+
 .address-list {
   padding-top: 20px;
 }
+
 .footer-contact-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .footer-title-soc {
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -608,10 +615,12 @@ footer {
   line-height: 1.14;
   color: var(--accent-text-color);
 }
+
 .team-soc-link.footer-soc-link {
   background-color: var(--icon-transparency-color);
   color: var(--accent-bg-color);
 }
+
 .team-soc-link.footer-soc-link:hover,
 .team-soc-link.footer-soc-link:focus {
   transition-duration: 250ms;
@@ -637,6 +646,7 @@ footer {
   pointer-events: none;
   visibility: hidden;
 }
+
 .modal {
   position: absolute;
   top: 50%;
